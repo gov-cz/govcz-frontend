@@ -1,0 +1,34 @@
+/build
+auth_template
+nbproject
+node_modules
+src/vendor/*
+.tmp
+.sass-cache
+.idea/
+prepros.cfg
+dist
+src/assets/icons/build/*
+src/build/fonts/*
+src/app/config/ngConstants.js
+
+.AppleDouble/
+.DS_Store
+
+# css and map files (excluding css libraries)
+*.css
+*.map
+
+# js build
+public/js/front.min.js
+
+### Vim
+# swap
+*.swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+Session.vim
+# temporary
+.nertwhist
+*~
+._*

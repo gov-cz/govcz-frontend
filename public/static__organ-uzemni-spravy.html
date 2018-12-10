@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="cs" class="pvs-theme js-no">
+	<head>
+		<meta charset="utf-8">
+		<title>Orgány územní samosprávy / Portál veřejné správy</title>
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" media="screen" href="/css/front.css">
+		<link rel="stylesheet" media="print" href="/css/print.css">
+		<link rel="shortcut icon" href="/images/meta/favicon.ico?v=knceasdft">
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/meta/apple-touch-icon.png?v=knceasdft">
+		<link rel="icon" type="image/png" sizes="32x32" href="/images/meta/favicon-32x32.png?v=knceasdft">
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/meta/favicon-16x16.png?v=knceasdft">
+		<link rel="manifest" href="/images/meta/manifest.json?v=knceasdft">
+		<link rel="mask-icon" href="/images/meta/safari-pinned-tab.svg?v=knceasdft" color="#2362a2">
+		<meta name="msapplication-config" content="/images/meta/browserconfig.xml?v=knceasdft">
+		<meta name="apple-mobile-web-app-title" content="PVS">
+		<meta name="application-name" content="PVS">
+		<meta name="theme-color" content="#2362a2">
+		<script src="/js/js-toggle.js"></script>
+	</head>
+	<body>
+		<div class="body__wrapper">
+			<div class="body__wrapper-in">
+				<div class="header" role="banner">
+					<noscript>
+						<div class="container pl-0 pr-0">
+							<div class="row">
+								<div class="col">
+									<div class="js-disclaimer">
+										<div class="alert alert--border alert-warning">
+											Máte vypnutý nebo nedostupný JavaScript.
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</noscript>
+					<div class="container">
+						<div class="header__inner">
+							<div class="row">
+								<div class="col-3 col-md-2 col-lg-3">
+									<div class="header__logo-holder">
+										<a href="/" class="header__logo" title="PORTÁL VEŘEJNÉ SPRÁVY - úvodní strana">PORTÁL VEŘEJNÉ SPRÁVY</a>
+										<img src="images/layout/pvs-logo-black.svg" alt="logo" class="header__logo--print">
+									</div>
+								</div>
+								<div class="col-9 col-md-10 col-lg-9">
+									<div class="header__toolbox">
+										<div class="row">
+											<div class="col-6 pr-0 pr-sm-2">
+												<div class="infoline">
+													Infolinka: <span class="info-number">270 005 200</span>
+												</div>
+											</div>
+											<div class="col-6">
+												<div class="text-right pl-xs-0">
+													<a href="#" class="btn-login" title="Přihlášení">
+														<span class="pvs-theme-icon-person"></span>
+														<span class="login-text">Přihlášení</span>
+													</a>
+													<a href="#" class="lang-change__link" title="English">en</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-md-10 offset-md-2 col-lg-9 offset-lg-3">
+									<div class="header__search-nav">
+										<div class="row">
+											<div class="col-12 col-md-5">
+												<div class="search-holder">
+													<div class="search">
+														<form action="#">
+															<fieldset>
+																<legend>Hledání</legend>
+																<div class="search__input-holder">
+																	<input type="text" class="form-control search__input" placeholder="Zajímá mě ...">
+																	<button class="btn search__button" type="button">
+																		<span class="pvs-theme-icon-search search__button--icon"></span>
+																		<span class="search__button--text">Hledat</span>
+																	</button>
+																</div>
+															</fieldset>
+														</form>
+													</div>
+												</div>
+											</div>
+											<div class="col-12 col-md-7 col-lg-7">
+												<div class="navigation">
+													<ul class="nav nav--primary">
+														<li class="nav__item"><a href="#" class="nav__link active">Občan</a></li>
+														<li class="nav__item"><a href="#" class="nav__link">Podnikatel</a></li>
+														<li class="nav__item hidden-mobile"><a href="#" class="nav__link">Cizinec</a></li>
+														<li class="nav__item hidden-mobile"><a href="#" class="nav__link">Úředník</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container pl-0 pr-0">
+					<div class="row">
+						<div class="col-12">
+							<div class="guide pb-0 show-from-desktop">
+								<div class="navigation">
+									<ul class="nav nav--horizontal">
+										<li class="nav__item"><a href="#" class="nav__link">Životní situace</a></li>
+										<li class="nav__item"><a href="#" class="nav__link">Formuláře</a></li>
+										<li class="nav__item"><a href="#" class="nav__link active">Seznam datových schránek</a></li>
+										<li class="nav__item"><a href="#" class="nav__link">Otevřená data</a></li>
+										<li class="nav__item"><a href="#" class="nav__link">Věstníky</a></li>
+										<li class="nav__item"><a href="#" class="nav__link">Zveřejněné informace</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<div class="container pl-0 pr-0">
+						<div class="guide guide--mobile mb-2 show-to-desktop">
+							<div class="row">
+								<div class="col-12">
+									<form>
+										<div class="form-group mb-0 pt-0">
+											<div class="select select__nav--mobile">
+												<select class="form-control" id="guide--mob">
+													<option value="zivotni-situace">Životní situace</option>
+													<option value="formulare">Formuláře</option>
+													<option value="seznam-datovych-schranek" selected>Seznam datových schránek</option>
+													<option value="otevrena-data">Otevřená data</option>
+													<option value="vestniky">Věstníky</option>
+													<option value="zverejnene-informace">Zveřejněné informace</option>
+												</select>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div class="col-12">
+									<div class="guide__back-step"></div>
+									<h2>Plzeňský kraj</h2>
+									<div class="navigation">
+										<ul class="nav nav--vertical">
+											<li class="nav__item"><a href="#" class="nav__link active">Orgány územní samosprávy</a></li>
+											<li class="nav__item"><a href="#" class="nav__link">Orgány státní správy</a></li>
+											<li class="nav__item"><a href="#" class="nav__link">Ostatní orgány veřejné moci</a></li>
+											<li class="nav__item"><a href="#" class="nav__link">Soudní exekutoři</a></li>
+											<li class="nav__item"><a href="#" class="nav__link">Notáři</a></li>
+											<li class="nav__item"><a href="#" class="nav__link">Advokáti</a></li>
+											<li class="nav__item"><a href="#" class="nav__link">Insolvenční správci</a></li>
+											<li class="nav__item"><a href="#" class="nav__link">Daňoví poradci</a></li>
+											<li class="nav__item"><a href="#" class="nav__link">Auditoři</a></li>
+											<li class="nav__item"><a href="#" class="nav__link">Fyzické osoby</a></li>
+											<li class="nav__item"><a href="#" class="nav__link">Podnikající fyzické osoby</a></li>
+											<li class="nav__item"><a href="#" class="nav__link">Právnické osoby</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="content__inner pt-0 pt-lg-2">
+							<div class="row">
+								<div class="col-lg-3 pl-0 pr-0">
+									<div class="guide guide--no-right-radius mt-0 show-from-desktop">
+										<div class="navigation">
+											<div class="guide__back-step"></div>
+											<ul class="nav nav--vertical">
+												<li class="nav__item"><a href="#" class="nav__link active">Orgány územní samosprávy</a></li>
+												<li class="nav__item"><a href="#" class="nav__link">Orgány státní správy</a></li>
+												<li class="nav__item"><a href="#" class="nav__link">Ostatní orgány veřejné moci</a></li>
+												<li class="nav__item"><a href="#" class="nav__link">Soudní exekutoři</a></li>
+												<li class="nav__item"><a href="#" class="nav__link">Notáři</a></li>
+												<li class="nav__item"><a href="#" class="nav__link">Advokáti</a></li>
+												<li class="nav__item"><a href="#" class="nav__link">Insolvenční správci</a></li>
+												<li class="nav__item"><a href="#" class="nav__link">Daňoví poradci</a></li>
+												<li class="nav__item"><a href="#" class="nav__link">Auditoři</a></li>
+												<li class="nav__item"><a href="#" class="nav__link">Fyzické osoby</a></li>
+												<li class="nav__item"><a href="#" class="nav__link">Podnikající fyzické osoby</a></li>
+												<li class="nav__item"><a href="#" class="nav__link">Právnické osoby</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-lg-9">
+									<div class="content__background--white">
+										<div class="row">
+											<div class="col-12 hidden-tablet">
+												<nav class="breadcrumbs mb-2" aria-label="breadcrumb">
+													<ol class="breadcrumb">
+														<li class="breadcrumb__item"><a href="#" class="breadcrumb__link">Úvod</a></li>
+														<li class="breadcrumb__item"><a href="#" class="breadcrumb__link">Seznam datových schránek</a></li>
+														<li class="breadcrumb__item"><a href="#" class="breadcrumb__link">Orgány územní samosprávy</a></li>
+														<li class="breadcrumb__item breadcrumb__item--active" aria-current="page"><span class="breadcrumb__link">Plzeňský kraj</span></li>
+													</ol>
+												</nav>
+											</div>
+											<div class="col-12">
+												<div class="row">
+													<div class="col-12 col-md-8">
+														<h1 class="mb-1">Plzeňský kraj</h1>
+													</div>
+													<div class="col-md-3 hidden-tablet">
+														<div class="data-box pt-1">
+															<ul>
+																<li class="data-box__icon pvs-theme-icon-data-box"></li>
+																<li class="data-box__title">ID Datové schránky</li>
+																<li>zzjbr3p</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-12">
+												<div class="district-selection">
+													<span class="district-selection__icon pvs-theme-icon-pin"></span>
+													<a href="#" class="district-selection__link">Vybrat jiný kraj</a>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="form-group mt-2 mb-0 pt-0">
+													<div class="select select--primary">
+														<select id="municipality" data-toggle="modal" data-target="#municipality-modal">
+															<option hidden>Obec s rozšířenou působností</option>
+															<option>Option 1 lorem ipsum</option>
+															<option>Option 2 dolor</option>
+															<option>Option 3 sit amet</option>
+														</select>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="form-group mt-2 mb-0 pt-0">
+													<div class="select select--primary">
+														<select id="district-municipality" data-toggle="modal" data-target="#municipality-modal">
+															<option hidden>Obce na území kraje</option>
+															<option>Option 1 lorem ipsum</option>
+															<option>Option 2 dolor</option>
+															<option>Option 3 sit amet</option>
+														</select>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="tabs">
+											<div class="row">
+												<div class="col-12">
+													<div class="tabs__list mt-3">
+														<ul class="tabs__list-holder">
+															<li class="tabs__item">
+																<a href="#" class="tabs__link tabs__link--active">Základní informace</a>
+															</li>
+															<li class="tabs__item">
+																<a href="#" class="tabs__link">Kontaktní osoby</a>
+															</li>
+															<li class="tabs__item">
+																<a href="#" class="tabs__link">Působnost v agendách</a>
+															</li>
+															<li class="tabs__item">
+																<a href="#" class="tabs__link">Zřizované organizace</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="tabs__content">
+												<div class="row">
+													<div class="col-md-6">
+														<div class="mb-1">
+															<div class="row">
+																<div class="col-md-5">
+																	<span class="tabs__content-title">Adresa:</span>
+																</div>
+																<div class="col-md-7">
+																	<ul class="tabs__content-list">
+																		<li>Náměstí Republiky 1/1</li>
+																		<li>Vnitřní Město</li>
+																		<li>30100 Plzeň</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+														<div class="mb-1">
+															<div class="row">
+																<div class="col-md-5">
+																	<span class="tabs__content-title">Webové stránky:</span>
+																</div>
+																<div class="col-md-7">
+																	<a href="https://goo.gl/maps/AmCqw6FJNS42" class="external mb-1">Ukázat na mapě</a>
+																	<a href="http://www.plzen.eu" class="external larger">http://www.plzen.eu</a>
+																</div>
+															</div>
+														</div>
+														<div class="mb-1">
+															<div class="row">
+																<div class="col-md-5">
+																	<span class="tabs__content-title">E-mail:</span>
+																</div>
+																<div class="col-md-7">
+																	<a href="mailto:posta@plzen.eu">posta@plzen.eu</a>
+																</div>
+															</div>
+														</div>
+														<div class="mb-1">
+															<div class="row">
+																<div class="col-md-5">
+																	<span class="tabs__content-title">Telefoní číslo:</span>
+																</div>
+																<div class="col-md-7">
+																	<span>+420 378 031 111</span>
+																</div>
+															</div>
+														</div>
+														<div class="mb-1">
+															<div class="row">
+																<div class="col-md-5">
+																	<span class="tabs__content-title">Fax:</span>
+																</div>
+																<div class="col-md-7">
+																	<span>+420 377 195 078</span>
+																</div>
+															</div>
+														</div>
+														<div class="mb-1">
+															<div class="row">
+																<div class="col-md-5">
+																	<span class="tabs__content-title">Úřední hodiny:</span>
+																</div>
+																<div class="col-md-7">
+																	<table class="tabs__content-table">
+																		<tr>
+																			<td>PO</td>
+																			<td>08:00 - 17:00</td>
+																		</tr>
+																		<tr>
+																			<td>ÚT</td>
+																			<td>08:00 - 16:00</td>
+																		</tr>
+																		<tr>
+																			<td>ST</td>
+																			<td>08:00 - 17:00</td>
+																		</tr>
+																		<tr>
+																			<td>ČT</td>
+																			<td>08:00 - 16:00</td>
+																		</tr>
+																		<tr>
+																			<td>PÁ</td>
+																			<td>08:00 - 15:00</td>
+																		</tr>
+																	</table>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-6">
+														<div class="embed-responsive embed-responsive-1by1">
+															<iframe class="embed-responsive embed-responsive-1by1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2578.0694962420607!2d13.374255715895757!3d49.74713614567077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470af1facbb99521%3A0xa4c92ddcf1c7ffd1!2zTWFnaXN0csOhdCBtxJtzdGE!5e0!3m2!1scs!2scz!4v1513271212217"></iframe>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 col-lg-3">
+									<div class="tabs__side-title">
+										<h2 class="bordered-blue">Další užitečné informace</h2>
+									</div>
+								</div>
+								<div class="col-12 col-lg-9">
+									<div class="content__background--white mt-lg-2" data-toggle="container">
+										<div class="tabs__content-heading d-flex align-items-center justify-content-between">
+											<h3 class="mb-0">Sestava dle §5 z.č. 106/1999 Sb</h3>
+											<a href="#" class="tabs__content-arrow" data-toggle="action">
+												<span class="arrow pvs-theme-icon-arrow-down" ></span>
+											</a>
+										</div>
+										<h2 class="mb-2">Krajský úřad - Plzeňský kraj</h2>
+
+										<div class="tabs" data-toggle="content">
+											<div class="tabs__content">
+												<div class="row">
+													<div class="col-md-6">
+														<div class="tabs__content-col">
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Název:</span>
+																	</div>
+																	<div class="col-md-7">
+																		<span>Plzeňský kraj</span>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Důvod a způsob založení:</span>
+																	</div>
+																	<div class="col-md-7">
+																		<span>čl. 99 zákona č. 1/1993 Sb., Ústava ČR</span>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Popis vnitřní organizační struktury:</span>
+																	</div>
+																	<div class="col-md-7">
+																		<a href="http://www.epusa.cz/" class="btn btn-outline-primary btn--raw btn--external btn-lg">http://www.epusa.cz/...cz</a>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Adresa úřadu:</span>
+																	</div>
+																	<div class="col-md-7">
+																		<ul class="tabs__content-list">
+																			<li>Plzeňský kraj</li>
+																			<li>Škroupova 1760/18 </li>
+																			<li>Jižní Předměstí</li>
+																			<li>30100 Plzeň</li>
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Kontaktní poštovní adresa:</span>
+																	</div>
+																	<div class="col-md-7">
+																		<ul class="tabs__content-list">
+																			<li>Plzeňský kraj</li>
+																			<li>Škroupova 1760/18 </li>
+																			<li>Jižní Předměstí</li>
+																			<li>30100 Plzeň</li>
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Úřadovny:</span>
+																	</div>
+																	<div class="col-md-7">
+																		<ul class="tabs__content-list mb-1">
+																			<li>Plzeňský kraj</li>
+																			<li>Škroupova 1760/18 </li>
+																			<li>Jižní Předměstí</li>
+																			<li>30100 Plzeň</li>
+																		</ul>
+																		<ul class="tabs__content-list mb-1">
+																			<li>Telefoní čísla:</li>
+																			<li>+420 377 195 111</li>
+																		</ul>
+																		<ul class="tabs__content-list mb-1">
+																			<li>Čísla faxu:</li>
+																			<li>+420 377 195 078</li>
+																		</ul>
+																		<span>Úřední hodiny:</span>
+																		<table class="tabs__content-table">
+																			<tr>
+																				<td>PO:</td>
+																				<td>08:05 - 17:00</td>
+																			</tr>
+																			<tr>
+																				<td>ST:</td>
+																				<td>08:00 - 17:00</td>
+																			</tr>
+																		</table>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Adresa internetové stránky:</span>
+																	</div>
+																	<div class="col-md-7">
+																		<a href="http://www.plzensky-kraj.cz" class="btn btn-outline-primary btn--raw btn--external btn-lg">http://www.plzensky-kraj.cz</a>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">E-podatelna:</span>
+																	</div>
+																	<div class="col-md-7">
+																		<a href="https://ipodatelna.kr-plzensky.cz/" class="btn btn-outline-primary btn--raw btn--external btn-lg">https://ipodatelna.kr-plzensky.cz/</a>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Další elektronické adresy:</span>
+																	</div>
+																	<div class="col-md-7">
+																		<ul class="tabs__content-list mb-1">
+																			<li>
+																				<a href="mailto:posta@plzen.eu" class="btn btn__content-link">posta@kr-plzensky.cz</a>
+																			</li>
+																			<li>(oficiální)</li>
+																		</ul>
+																		<ul class="tabs__content-list">
+																			<li>
+																				<a href="mailto:posta@plzen.eu" class="btn btn__content-link">posta@kr-plzensky.cz</a>
+																			</li>
+																			<li>(podatelna)</li>
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Hlavní datová schránka:</span>
+																	</div>
+																	<div class="col-md-7">
+																		<span>zzjbr3p</span>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Případné platby lze poukázat:</span>
+																	</div>
+																	<div class="col-md-7">
+																		<span>0000001033001661/5500</span>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">ID záznamu:</span>
+																	</div>
+																	<div class="col-md-7">
+																		<span>70890366</span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-6">
+														<div class="tabs__content-col">
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">DIČ:</span>
+																	</div>
+																	<div class="col-md-7">
+																	   <span>CZ70890366</span>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Seznamy hlavních dokumentů:</span>
+																	</div>
+																	<div class="col-md-7">
+																	   <ul class="tabs__content-list">
+																		   <li>elektronická úřední deska</li>
+																		   <li>
+																				<a href="http://www.plzensky-kraj.cz" class="btn btn-outline-primary btn--raw btn--external btn-lg">http://www.plzensky-kraj.cz/...382</a>
+																			</li>
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Rozpočet</span>
+																	</div>
+																	<div class="col-md-7">
+																	   <ul class="tabs__content-list">
+																		   <li>Rozpočet Plzeňského kraje</li>
+																		   <li>
+																				<a href="http://www.plzensky-kraj.cz" class="btn btn-outline-primary btn--raw btn--external btn-lg">http://www.plzensky-kraj.cz/...382</a>
+																			</li>
+																	   </ul>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Žádosti o informace:</span>
+																	</div>
+																	<div class="col-md-7">
+																	  <ul class="tabs__content-list">
+																		   <li>Základní informace o krajském úřadu</li>
+																		   <li>
+																				<a href="http://www.plzensky-kraj.cz" class="btn btn-outline-primary btn--raw btn--external btn-lg">http://www.plzensky-kraj.cz/...382</a>
+																			</li>
+																	   </ul>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Příjem žádostí a dalších podání:</span>
+																	</div>
+																	<div class="col-md-7">
+																	   <span>neuvedeno</span>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Opravné prostředky:</span>
+																	</div>
+																	<div class="col-md-7">
+																		<a href="mailto:posta@plzen.eu" class="btn btn__content-link">posta@kr-plzensky.cz</a>
+																		 <a href="http://www.plzensky-kraj.cz" class="btn btn-outline-primary btn--raw btn--external btn-lg mt-1">http://www.plzensky-kraj.cz/...249</a>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Formuláře:</span>
+																	</div>
+																	<div class="col-md-7">
+																		<a href="http://www.statnisprava.cz/" class="btn btn-outline-primary btn--raw btn--external btn-lg">http://www.statnisprava.cz/...formulare</a>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Popisy postupů - návody pro řešení životních situací:</span>
+																	</div>
+																	<div class="col-md-7">
+																		<a href="http://portal.gov.cz/" class="btn btn-outline-primary btn--raw btn--external btn-lg">http://portal.gov.cz/...708</a>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Nejdůležitější používané předpisy:</span>
+																	</div>
+																	<div class="col-md-7">
+																	   <span>zákon č. 1/1993 Sb., Ústava ČR, zákon č. 129/2000 Sb., o krajích; zákon č. 128/2000 Sb., o obcích;</span>
+																	   <a href="http://portal.gov.cz/" class="btn btn-outline-primary btn--raw btn--external btn-lg">http://zákon č. 1/...</a>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Vydané právní předpisy:</span>
+																	</div>
+																	<div class="col-md-7">
+																	   <span>neuvedeno</span>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Sazebník úhrad za poskytování informací:</span>
+																	</div>
+																	<div class="col-md-7">
+																	   <a href="http://www.plzensky-kraj.cz/" class="btn btn-outline-primary btn--raw btn--external btn-lg">http://www.plzensky-kraj.cz/...10530</a>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Usnesení o výši úhrad za informace:</span>
+																	</div>
+																	<div class="col-md-7">
+																	   <span>neuvedeno</span>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Vzory licenčních smluv:</span>
+																	</div>
+																	<div class="col-md-7">
+																	   <span>neuvedeno</span>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Výhradní licence:</span>
+																	</div>
+																	<div class="col-md-7">
+																	   <span>neuvedeno</span>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-1">
+																<div class="row">
+																	<div class="col-md-5">
+																		<span class="tabs__content-title">Výroční zpráva:</span>
+																	</div>
+																	<div class="col-md-7">
+																	   <a href="http://www.plzensky-kraj.cz/" class="btn btn-outline-primary btn--raw btn--external btn-lg">http://www.plzensky-kraj.cz/...40974</a>
+																   </div>
+															   </div>
+														   </div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer" role="contentinfo">
+					<div class="container">
+						<div class="footer__inner">
+							<div class="footer__links">
+								<div class="row">
+									<div class="col-12 col-sm-6 col-lg-3">
+										<div class="footer__box pb-4 pb-lg-0">
+											<h3>Užitečné odkazy</h3>
+											<p class="mr-sm-1">Další užitečné informace z&nbsp;různých oblastí výkonu veřejné správy.</p>
+											<ul>
+												<li><a href="#">Kompletní seznam Odkazů</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3">
+										<div class="footer__box pb-2 pb-sm-4 pb-lg-0">
+											<ul>
+												<li><a href="#">Prezident ČR</a></li>
+												<li><a href="#">Vláda ČR</a></li>
+												<li><a href="#">Poslanecká sněmovna ČR</a></li>
+												<li><a href="#">Senát ČR</a></li>
+												<li><a href="#">Ministerstva</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3">
+										<div class="footer__box pb-4 pb-sm-0">
+											<ul>
+												<li><a href="#">Kraje České republika</a></li>
+												<li><a href="#">Města a Obce</a></li>
+												<li><a href="#">Veřejné zakázky</a></li>
+												<li><a href="#">Veřejný rejstřík</a></li>
+												<li><a href="#">Státní služba</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3">
+											<div class="footer__box">
+											<ul class="bigger">
+												<li><a href="#">Informace<br> o&nbsp;České republice</a></li>
+												<li><a href="#">Informace<br> o&nbsp;České republice</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="footer__common">
+								<div class="row">
+									<div class="col-12 col-sm-6">
+										<div class="footer__box pb-3 pb-sm-0">
+											<ul>
+												<li><a href="#">Prohlášení o přístupnosti</a></li>
+												<li><a href="#">Historie přístupů</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6">
+										<div class="footer__box">
+											<p class="footer__brand">
+												2017&nbsp;&copy; Ministerstvo vnitra • Informace jsou poskytovány v&nbsp;souladu se zákonem č.&nbsp;106/1999&nbsp;Sb., o&nbsp;svobodném přístupu k&nbsp;informacím.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal modal--municipality fade" id="municipality-modal" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+					  <div class="modal-header">
+						<h2 class="mb-0">Všechny obce na území kraje</h2>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						</button>
+					</div>
+					<div class="modal-body pb-0">
+						<div class="search-holder">
+							<div class="search">
+								<form action="#">
+									<fieldset>
+										<legend>Hledání</legend>
+										<div class="search__input-holder">
+											<input type="text" class="form-control search__input mt-0 mb-0" placeholder="Vyhledat obci">
+											<button class="btn btn-primary search__button" type="button">
+												<span class="pvs-theme-icon-search search__button--icon"></span>
+											</button>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3 pr-1">
+								<ul class="modal-list">
+									<li class="modal-item">
+										<a href="#">Město Bělá nad Radbuzou</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Bezdružice</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Blovice</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Bor</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Černošín</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Dobřany</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Domažlice</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Hartmanice</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Holýšov</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Horažďovice</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-3 offset-md-1 pr-1">
+								<ul class="modal-list">
+									<li class="modal-item">
+										<a href="#">Město Horní Bříza</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Horšovský Týn</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Hostouň</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Hrádek</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Janovice nad Úhlavou</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Kasejovice</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Kašperské Hory</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Kaznějov</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Kdyně</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Kladruby</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-3 offset-md-1 pr-1">
+								<ul class="modal-list">
+									<li class="modal-item">
+										<a href="#">Město Klatovy</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Kožlany</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Kralovice</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Manětín</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Měčín</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Město Touškov</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Mirošov</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Mýto</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Nalžovské Hory</a>
+									</li>
+									<li class="modal-item">
+										<a href="#">Město Nepomuk</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer pt-0 pb-0">
+						<div class="paginator__holder">
+							<div class="paginator">
+								<ul class="paginator__list">
+									<li class="paginator__item pl-0">
+										<a href="#" class="paginator__link">
+											<span class="paginator__arrow paginator__arrow--disabled pvs-theme-icon-arrow-left"></span>
+										</a>
+									</li>
+									<li class="paginator__item">
+										<a href="#" class="paginator__link active">1</a>
+									</li>
+									<li class="paginator__item">
+										<a href="#" class="paginator__link">2</a>
+									</li>
+									<li class="paginator__item">
+										<a href="#" class="paginator__link">3</a>
+									</li>
+									<li class="paginator__item">
+										...
+									</li>
+									<li class="paginator__item">
+										<a href="#" class="paginator__link">8</a>
+									</li>
+									<li class="paginator__item pr-0">
+										<a href="#" class="paginator__link">
+											<span class="paginator__arrow pvs-theme-icon-arrow-right"></span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="debug-viewports">
+				<div class="debug-viewports__viewport d-xs-block d-sm-none">
+					Extra small devices (less than 576px)
+				</div>
+				<div class="debug-viewports__viewport d-none d-sm-block d-md-none">
+					Small devices (576px and up)
+				</div>
+				<div class="debug-viewports__viewport d-none d-md-block d-lg-none">
+					Medium devices (768px and up)
+				</div>
+				<div class="debug-viewports__viewport d-none d-lg-block">
+					Large devices (992px and up)
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- JS -->
+		<script src="/js/front.min.js"></script>
+	</body>
+</html>
